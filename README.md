@@ -1,11 +1,10 @@
 
-**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs
-**
+**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs**
 
 This repository contains the data and R scripts used in the manuscript:
 
-**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs
-**
+**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs**
+
 Submitted to **Microbiome** (under revision).
 
 **Authors**
@@ -22,8 +21,7 @@ Results: Reef-water bacterial microbiomes exhibited pronounced regional taxonomi
 Conclusions: Our findings show that reef-water bacterial microbiomes are structured through the combined effects of environmental filtering and local anthropogenic pressures, resulting in strong taxonomic turnover while maintaining comparatively stable predicted functional profiles. By identifying the principal drivers of reef-water microbiome assembly across one of the world's largest coral reef systems, this study advances our understanding of coral reef microbial ecology and highlights the potential of reef-water microbiomes as scalable, high-resolution indicators of ecosystem condition. These results provide a robust framework for incorporating microbiome-based approaches into coral reef monitoring, conservation, and ecosystem management under accelerating environmental change
 
 
-**Repository contents
-**
+**Repository contents**
 This repository contains the data and scripts required to reproduce the analyses presented in the manuscript.
 
 **Data**
@@ -35,14 +33,9 @@ Rarefied OTU tables used for diversity analyses and community composition.
 Non-rarefied OTU tables used for Random Forest and Generalized Additive Model (GAM) analyses.
 Model_GAMSandRF.csv, containing the predictor variables used to fit the Random Forest and GAM models.
 
-**Scripts
-**
+**Scripts**
 
 The repository includes the following R scripts:
 
 Random_Forest.R – Random Forest analyses used to identify the main predictors of bacterial diversity, community composition, and selected bacterial taxa.
 GAMS.R – Generalized Additive Models (GAMs) used to investigate nonlinear relationships between environmental variables and bacterial taxa/diversity metrics.
-
-
-
-
