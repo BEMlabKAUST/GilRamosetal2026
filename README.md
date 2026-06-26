@@ -1,10 +1,19 @@
-This Repository contains scripts and data used for the manuscript:
 
-Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs submitted to Microbiome journal
+**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs
+**
 
-Gloria Lisbet Gil Ramos, Eva Aylagas, João Cúrdia, Warren R. Francis, Karla Gonzalez, Micaela Sofia Dos Santos Justo, Andreia S. F. Farinha, Carolina Bocanegra-Castano, Diego Lozano-Cortés, Michael Berumen,Susana Carvalho
+This repository contains the data and R scripts used in the manuscript:
 
-Abstract: 
+**Environmental filtering and anthropogenic pressures structure reef-water bacterial microbiomes across Red Sea coral reefs
+**
+Submitted to **Microbiome** (under revision).
+
+**Authors**
+
+Gloria Lisbet Gil Ramos, Eva Aylagas, João Cúrdia, Warren R. Francis, Karla Gonzalez, Micaela Sofia Dos Santos Justo, Andreia S. F. Farinha, Carolina Bocanegra-Castano, Diego Lozano-Cortés, Michael Berumen, and Susana Carvalho.
+
+
+**Abstract**: 
 
 Background: Reef-water microbiomes are increasingly recognized as integrative indicators of coral reef ecosystem condition because they rapidly respond to environmental change while reflecting biological, chemical, and physical processes occurring across the reef. However, the ecological drivers governing reef-water bacterial microbiome assembly across interacting natural and anthropogenic gradients remain poorly resolved, particularly at regional spatial scales. Here, we characterized reef-water bacterial microbiomes collected immediately above sixteen coral reefs spanning three regions of the central Saudi Arabian Red Sea. By integrating microbial community profiles with comprehensive environmental, benthic, and anthropogenic datasets, we investigated how chemical, physical, biological, and human-related drivers shape bacterial diversity, taxonomic composition, predicted functional profiles, and the abundance of ecologically important taxa.
 
@@ -12,10 +21,28 @@ Results: Reef-water bacterial microbiomes exhibited pronounced regional taxonomi
 
 Conclusions: Our findings show that reef-water bacterial microbiomes are structured through the combined effects of environmental filtering and local anthropogenic pressures, resulting in strong taxonomic turnover while maintaining comparatively stable predicted functional profiles. By identifying the principal drivers of reef-water microbiome assembly across one of the world's largest coral reef systems, this study advances our understanding of coral reef microbial ecology and highlights the potential of reef-water microbiomes as scalable, high-resolution indicators of ecosystem condition. These results provide a robust framework for incorporating microbiome-based approaches into coral reef monitoring, conservation, and ecosystem management under accelerating environmental change
 
-______________________________________________________________________________________________________________________________________________________
 
-The data is presented in csv files for the Metadata associated with every sample, OTU tables (rarefied and non-rarefied)
+**Repository contents
+**
+This repository contains the data and scripts required to reproduce the analyses presented in the manuscript.
 
-The model used for running the Random Forests and the GAMS is the file Model_GAMSandRF.csv
+**Data**
 
-The scripts for running the models are presented in the R files GAMS.R and Random_Forest.R
+The data are provided as .csv files and include:
+
+Metadata associated with each water sample
+Rarefied OTU tables used for diversity analyses and community composition.
+Non-rarefied OTU tables used for Random Forest and Generalized Additive Model (GAM) analyses.
+Model_GAMSandRF.csv, containing the predictor variables used to fit the Random Forest and GAM models.
+
+**Scripts
+**
+
+The repository includes the following R scripts:
+
+Random_Forest.R – Random Forest analyses used to identify the main predictors of bacterial diversity, community composition, and selected bacterial taxa.
+GAMS.R – Generalized Additive Models (GAMs) used to investigate nonlinear relationships between environmental variables and bacterial taxa/diversity metrics.
+
+
+
+
