@@ -18,4 +18,4 @@ The data is presented in csv files for the Metadata associated with every sample
 
 The model used for running the Random Forests and the GAMS is the file Model_GAMSandRF.csv
 
-The scripts for running the models are presented here too (GAMS.R, Random_Forest.R)
+The scripts for running the models are presented in the R files GAMS.R and Random_Forest.R
